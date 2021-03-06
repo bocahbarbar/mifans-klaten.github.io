@@ -1,24 +1,94 @@
-*{
-  box-sizing: border-box;
-}
-body,html{
-  height: 100%
-  margin : 0 ;
-  padding: 0;
-}
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
-h1{
-  font-size: 70px;
-  text-transform: uppercase;
+body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
-.banner-img{
-  background-image: url(1.jpg);
-  -webkit-background-size:cover;
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100%;
+  background-position: 50% 50%;
+  background-image: url("1.jpg");
 }
 
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.overlay h1 {
+  font-size: 65px;
+  letter-spacing: 0px;
+  margin: 0 0 5px;
+}
+
+.overlay p {
+  margin: 0;
+  font-size: 28px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+}
+#borderDemo {
+  border: 4px outset #1c6ea4;
+  border-radius: 0px 40px 40px 40px;
+}
+p.solid {
+  border-style: solid;
+}
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 3px;
+}
+
+.btn {
+  border: none;
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background-size: 200%;
+  transition: 0.6s;
+}
+.btn1 {
+  background-image: linear-gradient(to left, #ff1b6b, #45caff);
+}
+.btn2 {
+  background-image: linear-gradient(to left, #f8acff, #439cfb);
+}
+.btn3 {
+  background-image: linear-gradient(to left, #696eff, #f8acff);
+}
+.btn4 {
+  background-image: linear-gradient(to left, #432371, #103783);
+}
+.btn5 {
+  background-image: linear-gradient(to left, #ffa585, #ffeda0, #f27a7d);
+}
+
+.btn:hover {
+  background-position: right;
+}
