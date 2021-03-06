@@ -88,6 +88,10 @@ p.solid {
 .btn5 {
   background-image: linear-gradient(to left, #ffa585, #ffeda0, #f27a7d);
 }
+.btn6 {
+  background-image: linear-gradient(to left, #9fccfa, #0974f1, #f27a7d);
+}
+
 
 .btn:hover {
   background-position: right;
