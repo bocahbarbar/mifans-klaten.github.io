@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agency - Start Bootstrap Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="assets/img/favicon.jpg" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#Detail">Acara</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Dokumentasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Welcome Lurd!</div>
+            <div class="masthead-heading text-uppercase">4th Anniversary Mi Fans Klaten</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#Detail">Load More</a>
+        </div>
+    </header>
+    <!-- Services-->
+    <section class="page-section" id="Detail">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Halo, Lurs</h2>
+                <h3 class="section-subheading text-muted">Acara Ulang Tahun Mi Fans Klaten Akan Diselenggarakan Pada:</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+
+                        <i class="fas fa-calendar-day fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Waktu dan tanggal</h4>
+                    <p class="text-muted">31 Oktober 2021 <br>09:00 WIB - Selesai</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-map-marked-alt fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Lokasi Acara</h4>
+                    <p class="text-muted"><b>Rumah Makan Semego</b>
+                        <br> (Kelurahan Wunut, Kecamatan Tulung, Kabupaten Klaten)<br><a href="https://maps.app.goo.gl/SBHa2ru2Aec3WY4WA">Click Here for Navigation</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-tshirt fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Dress code</h4>
+                    <p class="text-muted">4th Anniversary Mi Fans Klaten T-Shirt<br> atau baju mifans maupun baju sopan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dokumentasi Grid-->
+    <?php
+    $a = "Meet Up";
+    $b = "Meet Up";
+    $c = "Spesial Event";
+    $d = "launching Event";
+    $e = "Explore";
+    $fx = "Swimming";
+    $f = "Touring";
+    $a1 = "Anniversary Xiaomi 11";
+    $b1 = "Grand Opening Mi Store";
+    $c1 = "Buka bersama Adik Panti asuhan";
+    $d1 = "Xiaomi product launch exclusive invitation";
+    $e1    = "Mi Fans Annual Dinner and Awarding Night";
+    ?>
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Dokumentasi</h2>
+                <h3 class="section-subheading text-muted">Acara Mifans Klaten</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Dokumentasi item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $a ?></div>
+                            <div class="portfolio-caption-subheading text-muted"> <?= $a1 ?> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Dokumentasi item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $a ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $b1 ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Dokumentasi item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $b ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $c1 ?></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Dokumentasi item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $d ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $d1 ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Dokumentasi item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/7.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $c ?></div>
+                            <div class="portfolio-caption-subheading text-muted"> <?= $e1 ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Dokumentasi item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $d ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $d1 ?></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Dokumentasi item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/8.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $e ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $fx ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Dokumentasi item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/9.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $e ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $f ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Dokumentasi item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal10">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/10.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"><?= $e ?></div>
+                            <div class="portfolio-caption-subheading text-muted"><?= $f ?></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">Perjalan Mifans klaten</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>October 1, 2017</h4>
+                            <h4 class="subheading">Meet Up Pertama Mifans Klaten</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">kopdar perdana mi fans klaten Yang berada Di The Milk Klaten </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>October 27 2018</h4>
+                            <h4 class="subheading">1st Anniversary</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Anniversary Pertama di barengin dengan Product Exprient Roadshow Mi A2</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>October 27 2019</h4>
+                            <h4 class="subheading">2nd Anniversary</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Anniversary yang berkonsep syukuran yang berada di rumah salah satu member Mifans Klaten</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>October 24 2020</h4>
+                            <h4 class="subheading">3rd Anniversary</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Anniversary yang mengusung konsep bermain air dan turut hadir salah satu perwakilan dari Mi Shop </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image">
+                        <h4>
+                            let's make
+                            <br />
+                            a new
+                            <br />
+                            Story!
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/rhe.jpg" alt="..." />
+                        <h4>Rhenald Didi</h4>
+                        <p class="text-muted">President of Mi Fans Klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/aldo.jpg" alt="..." />
+                        <h4>Taufik Buruuj Diocto</h4>
+                        <p class="text-muted">Treasurer of Mifans klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/aldo.jpg" alt="..." />
+                        <h4>Aldo Phama Saputra</h4>
+                        <p class="text-muted">Vice President Mi Fans Klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/aldo.jpg" alt="..." />
+                        <h4>secretary of Mifans klaten</h4>
+                        <p class="text-muted">jozhevira Putri</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <h4>Dicky Sha-dk</h4>
+                        <p class="text-muted">Admin Instagram mifans klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <h4>Ramaditya Pradana</h4>
+                        <p class="text-muted">Admin Instagram mifans klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <h4>Djawon</h4>
+                        <p class="text-muted">Admin Twitter mifans klaten</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                        <h4>Dikky Susilo</h4>
+                        <p class="text-muted">Admin Twitter mifans klaten</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="large text-muted">Jajaran perangkat dari Komunitas Mifans klaten</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients-->
+    <!-- <div class="py-5">
+        <div class="container center">
+            <div class="row align-items-center">
+                <div class="col-sm-6 my-3">
+                    <a href="#!"><img class="img img-brand d-block mx-auto" src="assets/img/logos/xiaomi.png" alt="..." /></a>
+                </div>
+                <div class=" col-sm-6 my-3">
+                    <a href="#!"><img class="img img-brand d-block mx-auto" src="assets/img/logos/c.mi.png" alt="..." /></a>
+                </div>
+                <!-- <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
+                </div> -->
+    </div>
+    </div>
+    </div>
+    <!-- Contact-->
+
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Mifans Klaten 2021</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/mifans_klaten"><i class="fab fa-twitter"></i></a>
+
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/mifans_klaten"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Dokumentasi Modals-->
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $a1 ?></h2>
+                                <p class="item-intro text-muted"><?= $a ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $b1 ?></h2>
+                                <p class="item-intro text-muted"><?= $b ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $c1 ?></h2>
+                                <p class="item-intro text-muted"><?= $c ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $c1 ?></h2>
+                                <p class="item-intro text-muted"><?= $c ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $d1 ?></h2>
+                                <p class="item-intro text-muted"><?= $d ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $d1 ?></h2>
+                                <p class="item-intro text-muted"><?= $d ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $e1 ?></h2>
+                                <p class="item-intro text-muted"><?= $c ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/7.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $fx ?></h2>
+                                <p class="item-intro text-muted"><?= $e ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/8.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $f ?></h2>
+                                <p class="item-intro text-muted"><?= $e ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/9.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Dokumentasi item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase"><?= $f ?></h2>
+                                <p class="item-intro text-muted"><?= $e ?></p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/10.jpg" alt="..." />
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
